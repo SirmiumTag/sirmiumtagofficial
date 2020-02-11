@@ -16,8 +16,8 @@ section {
   background: #fff;
 }
 
-body { 
-  position: relative; /* we need this for the scrollspy */ 
+body {
+  position: relative; /* we need this for the scrollspy */
   font-size: 14px;
 }
 
@@ -490,7 +490,7 @@ footer em {
 }
 
 @media (max-width: 767px){
-  
+
   .baner-content {
     padding-top: 30vh;
   }
@@ -756,4 +756,50 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+.map{
+  max-width: 29vw;
+  margin: 0 auto;
+}
+.map img{
+  max-height: 52vh;
+  display: flex;
+  margin: 0 auto;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.map img:hover{
+  opacity: 1;
+}
+.map p{
+  text-align: center;
+}
+@media only screen and (max-width: 767px){
+  .map{
+    max-width: 90vw;
+  }
+}
+@media only screen and (min-width: 1600px){
+  .map{
+    max-width: 20vw;
+  }
+  .map img{
+    max-height: 40vh;
+  }
+}
+@media only screen and (min-width: 1900px){
+  .map{
+    max-width: 17vw;
+  }
+  .map img{
+    max-height: 30vh;
+  }
+}
+@media only screen and (min-width: 2400px){
+  .map{
+    max-width: 10vw;
+  }
+  .map img{
+    max-height: 20vh;
+  }
 }
