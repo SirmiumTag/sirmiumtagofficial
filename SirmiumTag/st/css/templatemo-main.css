@@ -19,12 +19,46 @@ section {
 body {
   position: relative; /* we need this for the scrollspy */
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 a { color: #3CC; }
 
 a:hover { color: #FF0; }
 
+/*Preloader: */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.pre_loader{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 10001;
+  display: flex;
+  animation-name: fadeOut;
+  animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  overflow-y: hidden;
+}
+.pre_loader img{
+  height: 40vh;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+@media only screen and (max-width:767px){
+  .pre_loader img{
+    height: 100vh;
+    margin-top: 0;
+  }
+}
 /*----------
   NAV
 ----------*/
