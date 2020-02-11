@@ -44,7 +44,7 @@ a:hover { color: #FF0; }
   display: flex;
   animation-name: fadeOut;
   animation-duration: 1.5s;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
   overflow-y: hidden;
 }
 .pre_loader img{
