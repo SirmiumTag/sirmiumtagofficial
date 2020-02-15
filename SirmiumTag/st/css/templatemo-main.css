@@ -43,8 +43,8 @@ a:hover { color: #FF0; }
   z-index: 10001;
   display: flex;
   animation-name: fadeOut;
-  animation-duration: 1.5s;
-  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   overflow-y: hidden;
 }
 .pre_loader img{
@@ -799,11 +799,11 @@ body.lb-disable-scrolling {
   max-height: 52vh;
   display: flex;
   margin: 0 auto;
-  opacity: 0.7;
+  opacity: 1;
   transition: opacity 0.3s;
 }
 .map img:hover{
-  opacity: 1;
+  opacity: 0.7;
 }
 .map p{
   text-align: center;
