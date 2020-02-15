@@ -43,8 +43,8 @@ a:hover { color: #FF0; }
   z-index: 10001;
   display: flex;
   animation-name: fadeOut;
-  animation-duration: 1.5s;
-  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   overflow-y: hidden;
 }
 .pre_loader img{
