@@ -848,7 +848,7 @@ body.lb-disable-scrolling {
   margin: 0 auto;
 }
 .map img{
-  max-height: 52vh;
+  max-height: 100px;
   display: flex;
   margin: 0 auto;
   opacity: 1;
